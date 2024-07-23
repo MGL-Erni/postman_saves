@@ -1,0 +1,151 @@
+{
+	"info": {
+		"_postman_id": "7438783d-cf8b-4f12-a675-d79316e69853",
+		"name": "CRUD API Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "36854495"
+	},
+	"item": [
+		{
+			"name": "{{baseUrl}}/Games",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Id\": \"e8d63157-6cda-40e5-8a2f-03dabe16525d\",\r\n  \"Date\": \"2024-07-22\",\r\n  \"Result\": \"1-0\",\r\n  \"PlayerW\": {\r\n    \"Id\": \"89e73c26-5d27-4e4f-b6e7-3a4f3a6bdf5f\",\r\n    \"PlayerFirstName\": \"John\",\r\n    \"PlayerLastName\": \"Doe\",\r\n    \"PlayerRating\": 2000\r\n  },\r\n  \"PlayerB\": {\r\n    \"Id\": \"aedb4e85-2e29-44f3-9e0e-376a621c2b60\",\r\n    \"PlayerFirstName\": \"Jane\",\r\n    \"PlayerLastName\": \"Smith\",\r\n    \"PlayerRating\": 1800\r\n  },\r\n  \"Opening\": {\r\n    \"Id\": \"c7fd9945-27f4-4f77-87a6-8f3e3e3f715d\",\r\n    \"OpeningName\": \"Sicilian Defense\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Games",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Games"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{baseUrl}}/Games/e8d63157-6cda-40e5-8a2f-03dabe16525d",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/Games/e8d63157-6cda-40e5-8a2f-03dabe16525d",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Games",
+						"e8d63157-6cda-40e5-8a2f-03dabe16525d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{baseUrl}}/Games",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/Games",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Games"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{baseUrl}}/Games/e8d63157-6cda-40e5-8a2f-03dabe16525d",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"Id\": \"e8d63157-6cda-40e5-8a2f-03dabe16525d\",\r\n  \"Date\": \"2024-07-22\",\r\n  \"Result\": \"1-0\",\r\n  \"PlayerW\": {\r\n    \"Id\": \"89e73c26-5d27-4e4f-b6e7-3a4f3a6bdf5f\",\r\n    \"PlayerFirstName\": \"John\",\r\n    \"PlayerLastName\": \"Doe\",\r\n    \"PlayerRating\": 2000\r\n  },\r\n  \"PlayerB\": {\r\n    \"Id\": \"aedb4e85-2e29-44f3-9e0e-376a621c2b60\",\r\n    \"PlayerFirstName\": \"Jane\",\r\n    \"PlayerLastName\": \"Smith\",\r\n    \"PlayerRating\": 1950\r\n  },\r\n  \"Opening\": {\r\n    \"Id\": \"c7fd9945-27f4-4f77-87a6-8f3e3e3f715d\",\r\n    \"OpeningName\": \"Sicilian Defense\"\r\n  }\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{baseUrl}}/Games/e8d63157-6cda-40e5-8a2f-03dabe16525d",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Games",
+						"e8d63157-6cda-40e5-8a2f-03dabe16525d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{baseUrl}}/Games/e8d63157-6cda-40e5-8a2f-03dabe16525d",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/Games/e8d63157-6cda-40e5-8a2f-03dabe16525d",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Games",
+						"e8d63157-6cda-40e5-8a2f-03dabe16525d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{baseUrl}}/Games/e8d63157-6cda-40e5-8a2f-03dabe16525d",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/Games/e8d63157-6cda-40e5-8a2f-03dabe16525d",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Games",
+						"e8d63157-6cda-40e5-8a2f-03dabe16525d"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{baseUrl}}/Games",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{baseUrl}}/Games",
+					"host": [
+						"{{baseUrl}}"
+					],
+					"path": [
+						"Games"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
